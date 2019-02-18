@@ -43,7 +43,7 @@ namespace ConsoleApp1 {
                     if (result.Text.ToLower() == "close" || result.Text.ToLower() == "close.")
                         Environment.Exit(1);
 
-                    if (result.Text.ToLower().StartsWith("search") || result.Text.ToLower().StartsWith("Search")) {
+                    if (result.Text.ToLower().StartsWith("search") || result.Text.ToLower().StartsWith("Search.")) {
 
                         String Search = result.Text.ToLower().Replace("search", "");
                         Console.WriteLine();
